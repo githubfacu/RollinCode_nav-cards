@@ -18,7 +18,11 @@ const CardHero = ({superheroe}) => {
           style={{
               height: '100%'
           }}
-          cover={<img alt={superheroe.alter_ego} src={superheroe.url} height={350} style={{objectFit: 'cover'}}/>}
+          cover={<img alt={superheroe.alter_ego} src={superheroe.url} height={350}
+          style={{
+            objectFit: 'cover',
+            objectPosition: 'top'
+          }}/>}
         >
           <Meta title={superheroe.superhero} description={superheroe.alter_ego} />
           <h4 style={{fontWeight: '500', textAlign: 'center', marginBottom: 0, color: '#484848', fontSize: '14px'}}>Ver detalle</h4>
