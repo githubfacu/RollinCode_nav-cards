@@ -4,6 +4,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 
 const Detalle = () => {
 
+    window.scrollTo(0,0)
+
     const { id } = useParams()
     const navigate = useNavigate()
 
