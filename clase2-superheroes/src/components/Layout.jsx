@@ -6,10 +6,12 @@ const Layout = ({children}) => {
 
 
   return (
-    <div>
+    <>
         <Header />
-        {children}
-    </div>
+        <div style={{padding: 8, backgroundColor: 'rgb(249, 249, 236)'}}>
+          {children}
+        </div>
+    </>
   )
 }
 

@@ -105,7 +105,7 @@ const heroes = [
 		alter_ego: 'Steve Rogers',
 		first_appearance: 'Captain America Comics #1',
 		characters: 'Steve Rogers',
-		url: 'https://pm1.narvii.com/6072/a6accc9fef58647c3aa6607a712b5e6bfefa07d4_hq.jpg',
+		url: 'http://www.firstcomicsnews.com/wp-content/uploads/2018/06/CAPAM001_GARNEY.jpg',
 	},
 	{
 		id: 'marvel-iron',

@@ -1,0 +1,12 @@
+
+@media (max-width: 768px) {
+
+    .detalleSection{
+        flex-direction: column;
+    }
+
+    .detalleSectionDiv{
+        align-items: center;
+        justify-content: center;
+    }
+}

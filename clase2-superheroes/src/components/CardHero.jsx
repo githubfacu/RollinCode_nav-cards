@@ -13,17 +13,15 @@ const CardHero = ({superheroe}) => {
   return (
     <>
         <Card
-        onClick={navegarADetalle}
-        hoverable
-        style={{
-            width: 240,
-            margin: '15px'
-        }}
-        cover={<img alt={superheroe.alter_ego} src={superheroe.url} height={350} style={{objectFit: 'cover'}}/>}
-        
+          onClick={navegarADetalle}
+          hoverable
+          style={{
+              height: '100%'
+          }}
+          cover={<img alt={superheroe.alter_ego} src={superheroe.url} height={350} style={{objectFit: 'cover'}}/>}
         >
-        <Meta title={superheroe.superhero} description={superheroe.alter_ego} />
-        <h3>Ver más...</h3>
+          <Meta title={superheroe.superhero} description={superheroe.alter_ego} />
+          <h4 style={{fontWeight: '500', textAlign: 'center', marginBottom: 0, color: '#484848'}}>Ver detalle</h4>
         </Card>
     </>
   )
